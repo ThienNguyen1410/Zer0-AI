@@ -1,4 +1,5 @@
 // Server side is support CORS
+import { debugLog } from "../../logs/debug";
 import { RequestMethod, RequestOptions, RequestRoute, RequestType } from "./types";
 
 export const allowedRequestMethods : RequestMethod[] = ["GET", "POST", "PUT", "DELETE", "PATCH"]

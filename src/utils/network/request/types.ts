@@ -11,7 +11,7 @@ export type RequestHeaders = {
 
 export type RequestOptions = Omit<RequestInit, "headers" | "body"> & {
     headers?: RequestHeaders,
-    body?: BodyInit,
+    body?: BodyInit_,
 }
 
 /**
